@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <base href="../">
+  <title>Products | NHAN VIET ENGINEERING TM DV CO LTD IT Equipment</title>
+  <meta name="description" content="IT equipment categories, software solutions and enterprise product groups supplied by NHAN VIET ENGINEERING TM DV CO LTD.">
+  <link href="assets/img/Logo (2).png" rel="icon">
+  <link href="assets/img/Logo (2).png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css?v=2.5" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="en/index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/Logo NHV.png" alt="Nhan Viet logo">
+        <span class="brand-text">Nhan Viet</span>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="en/index.html">Home</a></li>
+          <li><a href="en/company.html">About us</a></li>
+          <li><a href="en/products.html" class="active">Products</a></li>
+          <li><a href="en/services.html">Solutions</a></li>
+          <li><a href="en/projects.html">Projects</a></li>
+          <li><a href="en/warranty.html">Warranty</a></li>
+          <li><a href="en/news.html">News</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="en/contact.html">Contact now</a>
+      <div class="language-switch" aria-label="Language switch"><a href="products.html">VI</a><span class="active">EN</span></div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="page-hero section">
+      <div class="container">
+        <span class="eyebrow">Equipment Categories</span>
+        <h1>NHAN VIET ENGINEERING TM DV CO LTD Products</h1>
+        <p>Product categories are grouped clearly so customers can follow and choose based on their needs.</p>
+      </div>
+    </section>
+
+    <section class="pricing section section-compact">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Main Product Groups</h2>
+        <p>NHAN VIET ENGINEERING TM DV CO LTD provides IT equipment, application software and product groups for business operations.</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-6 col-xl-3">
+            <div class="pricing-item compact-card pillar-card">
+              <div class="pillar-icon"><i class="bi bi-hdd-network"></i></div>
+              <h3>Infrastructure Equipment</h3>
+              <p>Servers, firewalls, storage devices and infrastructure components for businesses.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="pricing-item compact-card pillar-card">
+              <div class="pillar-icon"><i class="bi bi-pc-display-horizontal"></i></div>
+              <h3>Computers and Office Equipment</h3>
+              <p>PCs, laptops, monitors, printers, photocopiers, time attendance devices and related office equipment.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="pricing-item compact-card pillar-card">
+              <div class="pillar-icon"><i class="bi bi-upc-scan"></i></div>
+              <h3>Specialized Equipment</h3>
+              <p>Barcode readers, goods positioning solutions, RFID printers and RFID labels.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="pricing-item compact-card pillar-card">
+              <div class="pillar-icon"><i class="bi bi-windows"></i></div>
+              <h3>Application Software</h3>
+              <p>Microsoft, security software, graphics software and work applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section light-background section-compact">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Representative Products</h2>
+      </div>
+      <div class="container">
+        <div id="productExplorerPanel" class="product-explorer-panel">
+          <div class="product-explorer-layout">
+            <aside class="product-explorer-sidebar">
+              <div class="product-explorer-sidebar-head">
+                <h3>Product Categories</h3>
+                <p>Choose a product group to view reference images.</p>
+              </div>
+              <div id="productCategoriesContainer" class="product-category-list" role="tablist" aria-label="Product Categories"></div>
+            </aside>
+            <div class="product-explorer-content">
+              <div class="product-preview-head">
+                <div>
+                  <span class="product-preview-kicker">Current Group</span>
+                  <h3 id="productInlineTitle">No category selected</h3>
+                  <p id="productInlineSummary">Choose a product group on the left to view images.</p>
+                </div>
+                <button type="button" id="productOpenModalBtn" class="product-open-modal-btn" disabled>View large image</button>
+              </div>
+              <button type="button" id="productInlineHero" class="product-inline-hero" disabled aria-label="View large image">
+                <img id="productInlineHeroImage" src="" alt="">
+              </button>
+              <div class="product-inline-meta">
+                <span id="productInlineCounter">0 / 0</span>
+                <span id="productInlineHint">Choose a category to view product images.</span>
+              </div>
+              <div id="productInlineThumbs" class="product-inline-thumbs"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer footer-compact">
+    <div class="container footer-top">
+      <div class="row gy-4 align-items-start">
+        <div class="col-xl-3 col-lg-4">
+          <a href="en/index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/Logo NHV.png" alt="Nhan Viet logo" class="js-footer-logo">
+            <span class="brand-text">Nhan Viet</span>
+          </a>
+          <p class="footer-copy">NHAN VIET ENGINEERING TM DV CO LTD</p>
+          <p>12th Floor (1206), CitiLight Tower, 45 Vo Thi Sau, Tan Dinh Ward, Ho Chi Minh City.</p>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="en/company.html">About us</a></li>
+            <li><a href="en/products.html">Products</a></li>
+            <li><a href="en/services.html">Solutions</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6">
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="en/projects.html">Projects</a></li>
+            <li><a href="en/news.html">News</a></li>
+            <li><a href="en/warranty.html">Warranty</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 js-footer-contact"></div>
+        <div class="col-xl-3 col-lg-4 col-md-6 js-footer-extra-contact"></div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating-contact">
+    <div class="floating-zalo-wrap">
+      <button type="button" class="floating-btn floating-zalo floating-zalo-toggle" aria-label="Open Zalo contacts">
+        <img src="assets/img/logoZALO.png" alt="Zalo">
+      </button>
+      <div class="floating-zalo-menu js-zalo-menu"></div>
+    </div>
+    <a href="https://www.facebook.com/profile.php?id=61576707212608" class="floating-btn floating-facebook" target="_blank" rel="noopener" aria-label="NHAN VIET ENGINEERING TM DV CO LTD Facebook">
+      <i class="bi bi-facebook"></i>
+    </a>
+  </div>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <div id="productModal" class="product-modal">
+    <div class="product-modal-content">
+      <span class="product-close">&times;</span>
+      <h2 class="product-modal-title" id="productCategoryTitle">Products</h2>
+      <div class="product-gallery-container">
+        <div class="product-gallery" id="productGallery"></div>
+      </div>
+      <div class="product-modal-nav">
+        <button id="prevBtn" class="product-nav-btn">&lt;</button>
+        <span id="imageCounter" class="image-counter"></span>
+        <button id="nextBtn" class="product-nav-btn">&gt;</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
