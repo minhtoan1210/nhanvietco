@@ -96,7 +96,10 @@
         <div class="footer-extra-contact">
           <strong>${labels.warranty}</strong>
          
-          <p>purchaser@nhanvietvn.com</p>
+          <p>Ms. Phong:
+          support@nhanvietvn.com</p>
+          <p>Ms. Toàn:
+          support1@nhanvietvn.com</p>
         </div>
       `;
     });
